@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mulesoft.training.HelloMavenTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.065 s <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
+mavenFlowReturnsHelloMaven(com.mulesoft.training.HelloMavenTest)  Time elapsed: 13.933 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[HELLO WORLD]> but was:<[[{DESTINATION=SFO, PRICE=555, ORIGIN=YYZ, ID=0}, {DESTINATION=LAX, PRICE=450, ORIGIN=YYZ, ID=1}, {DESTINATION=SEA, PRICE=777, ORIGIN=SQL, ID=2}, {DESTINATION=SFO, PRICE=999, ORIGIN=SQL, ID=3}]]>
+	at com.mulesoft.training.HelloMavenTest.mavenFlowReturnsHelloMaven(HelloMavenTest.java:10)
+
